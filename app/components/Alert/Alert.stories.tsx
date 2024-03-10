@@ -1,9 +1,9 @@
 // storybook stories for Alert component
 
-import React from 'react';
-import { Meta, StoryObj } from '@storybook/react';
-import { Alert } from './Alert';
+import type { Meta, StoryObj } from '@storybook/react';
 import { Terminal } from 'lucide-react';
+import React from 'react';
+import { Alert } from './Alert';
 
 const meta: Meta<typeof Alert> = {
   component: Alert,

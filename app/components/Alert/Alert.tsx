@@ -1,7 +1,7 @@
 import {
-  Alert as SCNAlert,
   AlertDescription,
   AlertTitle,
+  Alert as SCNAlert,
 } from '@/components/ui/alert';
 
 type AlertProps = {
