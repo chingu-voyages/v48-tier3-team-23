@@ -17,6 +17,13 @@
     "ignore": ["node_modules/*", "dist/*", "build/*", ".next/"]
   },
   "linter": {
-    "enabled": true
+    "enabled": true,
+    "rules": {
+      "correctness": {
+        "noUnusedVariables": {
+          "level": "error"
+        }
+      }
+    }
   }
 }

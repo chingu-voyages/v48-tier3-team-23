@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "type-check": "tsc --noEmit",
     "lint": "next lint",
     "lint:biome": "biome lint .",
     "lint:biome:fix": "biome check . --apply",

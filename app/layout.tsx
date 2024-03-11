@@ -8,7 +8,6 @@ export const metadata: Metadata = {
   title: 'Water levels',
   description: 'Check water levels near you',
 };
-type something = string;
 
 export default function RootLayout({
   children,
