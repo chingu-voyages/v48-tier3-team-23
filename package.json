@@ -14,7 +14,7 @@
     "build-storybook": "storybook build",
     "prepare": "husky",
     "format": "biome format --write .",
-    "test": "playwright test", 
+    "test": "playwright test",
     "test:ui": "playwright test --ui"
   },
   "dependencies": {
