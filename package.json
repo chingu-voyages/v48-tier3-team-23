@@ -13,15 +13,18 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "prepare": "husky",
-    "format": "biome format --write ."
+    "format": "biome format --write .",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui"
   },
   "dependencies": {
     "@clerk/nextjs": "^4.29.9",
     "@radix-ui/react-icons": "^1.3.0",
+    "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "husky": "^9.0.11",
-    "lucide-react": "^0.352.0",
+    "lucide-react": "^0.359.0",
     "next": "14.1.3",
     "react": "^18",
     "react-dom": "^18",
@@ -30,6 +33,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.6.0",
+    "@playwright/test": "^1.42.1",
     "@storybook/addon-essentials": "^7.6.17",
     "@storybook/addon-interactions": "^7.6.17",
     "@storybook/addon-links": "^7.6.17",

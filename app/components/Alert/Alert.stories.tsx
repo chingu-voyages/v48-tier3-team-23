@@ -3,7 +3,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Terminal } from 'lucide-react';
 import React from 'react';
-import { Alert } from './Alert';
+import { Alert } from './';
 
 const meta: Meta<typeof Alert> = {
   component: Alert,
