@@ -7,6 +7,7 @@ import {
   Shield,
   Waves,
 } from 'lucide-react';
+import { SignInButton } from './components';
 
 const infoCards = [
   {
@@ -62,9 +63,7 @@ export default function Home() {
           that.
         </h2>
         <div className="flex items-center gap-2 mt-3">
-          <Button size="lg">
-            <LogIn className="mr-2 h-4 w-4" /> Sign in
-          </Button>
+          <SignInButton withIcon size="lg" />
           <Button size="lg" variant="outline">
             Find out more
           </Button>
